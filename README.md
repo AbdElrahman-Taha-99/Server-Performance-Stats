@@ -1,12 +1,17 @@
 # Server-Performance-Stats
+
 Shell script to analyze basic server performance stats.
 
 $ chmod +x server-stats.sh
+
 $ ./server-stats.sh
 
 -You can install the 'mail' command in Debian-based distributions like Ubuntu by running the command:
+
  sudo apt-get install mailutils 
+
 -For RPM-based distributions like CentOS, use the command:
+
  sudo yum install mailx 
 
 **Create Cron Job**
@@ -25,3 +30,4 @@ This way you will have a daily record of your system information in a single fil
 
 $ sudo cat /opt/system.log
 
+Project URL: https://roadmap.sh/projects/server-statis
